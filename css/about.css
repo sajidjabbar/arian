@@ -1,0 +1,88 @@
+section {
+    padding: unset;
+}
+section.about_text {
+    padding-top: 76px;
+}
+.partner_detail {
+    text-align: center;
+    width: 90%;
+    transform: translate(0px, -58px);
+    background-color: #FFFFFF;
+    padding: 16px 4px;
+    box-shadow: 0px 2px 4px #e7cfcf;
+}
+section.contact_section_start_here {
+    background: #F6F6F6;
+    padding: 66px 0px 81px;
+}
+.single_contact {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-top: 59px;
+}
+.custom_width.mx-auto {
+    width: 86%;
+}
+/* FORM CSS HERE */
+.contact_form {
+    width: 100%;
+    background: #FFFFFF;
+    padding: 25px 35px 117px;
+    height: 100%;
+    box-shadow: 0px 0px 4px #e7cfcf;
+}
+.contact_form form .form_row {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 19px;
+}
+.contact_form form .form_row .single_input {
+    width: 45%;
+}
+.contact_form form .form_row input,
+.contact_form form .form_row select,
+.contact_form form .form_row textarea {
+    width: 100%;
+    background: #F6F6F6;
+    border: 0px;
+    height: 49px;
+    color: #636060;
+    font-family: "Roboto-Light";
+    font-size: 13px;
+    padding-left: 20px;
+}
+.contact_form form .form_row textarea {
+    resize: none;
+    height: 171px;
+    padding-top: 22px;
+}
+.contact_form .form_top_text {
+    margin-bottom: 51px;
+}
+.submit_btn {
+    margin-top: 20px;
+}
+p.point::before {
+    content: "";
+    display: block;
+    position: relative;
+    width: 25px;
+    top: 1px;
+    height: 25px;
+    background-image: url(../img/point.png);
+    background-repeat: no-repeat;
+    margin-right: 14px;
+}
+p.point {
+    display: flex;
+    margin-bottom: 7px;
+}
+h5{
+    font-size: 26px;
+    font-family: "Playfair-Bold";
+    color: #000000;
+  }

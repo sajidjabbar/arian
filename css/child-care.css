@@ -1,0 +1,82 @@
+.form_start {
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 0px 4px #e7cfcf;
+    padding: 25px 33px;
+}
+
+.form_row label {
+    display: block;
+    color: #000000;
+    font-family: 'Poppins-Regular';
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.form_row input {
+    width: 100%;
+    margin-top: 1px;
+    border: 1px solid #C3CAD9;
+    padding: 0px 16px;
+    height: 46px;
+    background: #F3F3F3;
+    color: #B1BBC4;
+    font-size: 13px;
+}
+.form_row {
+    margin-top: 19px;
+}
+
+/* CUSTom CHECKBOX */
+[type="radio"]:check ed,
+[type="radio"]:not(:ch ecked) {
+    position: absolute;
+    left: -9999px;
+}
+ [type="radio"]:checked + label,
+[type="radio"]:not(:checked) +  label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+}
+ [type="radio"]:checked + label:before,
+[type="radio"]:not(:checked) + label: before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 18px;
+    height: 18px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+ [type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label :after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #101010;
+    position: absolute;
+    top: 4px;
+    border: 2px solid #FFF;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    box-shadow: 0px 0px 0px 1px #300c44;
+}
+ [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+ [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
