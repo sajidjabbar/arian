@@ -10,6 +10,11 @@
 --------------------------------------------------------------*/
 /* FONTS */
 @font-face {
+  font-family: "Pala-Bold";
+  src: url(../fonts/Palatino/palab.ttf);
+}
+
+@font-face {
   font-family: "Playfair-Italic";
   src: url(../fonts/playfair/PlayfairDisplay-Italic.ttf);
 }
@@ -17,6 +22,11 @@
 @font-face {
   font-family: "Playfair-Bold";
   src: url(../fonts/playfair/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Playfair-SemiBold";
+  src: url(../fonts/playfair/PlayfairDisplay-SemiBold.ttf);
 }
 
 @font-face {
@@ -53,34 +63,42 @@
   font-family: "Poppins-Thin";
   src: url(../fonts/popins/Poppins-Thin.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Black";
   src: url(../fonts/roboto/Roboto-Black.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Bold";
   src: url(../fonts/roboto/Roboto-Bold.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Italic";
   src: url(../fonts/roboto/Roboto-Italic.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Light";
   src: url(../fonts/roboto/Roboto-Light.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Medium";
   src: url(../fonts/roboto/Roboto-Medium.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Regular";
   src: url(../fonts/roboto/Roboto-Regular.ttf);
 }
+
 @font-face {
   font-family: "Roboto-Thin";
   src: url(../fonts/roboto/Roboto-Thin.ttf);
 }
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -90,6 +108,7 @@ a {
   color: #3CBFFC;
   text-decoration: none;
 }
+
 a:hover {
   color: #3b8af2;
   text-decoration: none;
@@ -110,48 +129,58 @@ h6.blue {
   font-family: "Playfair-Italic";
   font-style: italic;
 }
-h6{
+
+h6 {
   font-family: "Playfair-Bold";
   font-size: 22px;
 }
-h5{
+
+h5 {
   font-size: 26px;
   font-family: "Playfair-Bold";
   color: #000000;
 }
-h3{
+
+h3 {
   font-size: 35px;
   font-family: "Playfair-Bold";
   color: #000000;
 }
-.robot{
+
+.robot {
   font-family: "Roboto-Regular";
   font-size: 25px;
   color: #000000;
   opacity: 0.8;
 }
-.roboto_21{
+
+.roboto_21 {
   font-size: 21px;
 }
+
 h4 {
   font-size: 30px !important;
   font-family: "Playfair-Bold" !important;
   color: #000000 !important;
 }
+
 section.out_team {
   padding-top: 68px;
 }
-p{
+
+p {
   font-family: "Poppins-Regular";
   color: #000000;
   font-size: 14px;
 }
-span{
+
+span {
   font-family: "Poppins-Bold";
   color: #000000;
   font-size: 13px;
 }
-.btn{
+
+.btn {
   background-color: #3CBFFC;
   border-radius: 0px;
   color: #FFFFFF;
@@ -162,12 +191,14 @@ span{
   border: 1px solid transparent;
   cursor: pointer;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #FFFFFF;
   border-radius: 0px;
   border: 1px solid #3CBFFC;
   color: #3CBFFC;
 }
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -2040,4 +2071,132 @@ section.custom_banner .custom_banner_text p img {
     text-align: center;
     padding: 2px 0;
   }
+}
+
+/* STYLING START HERE */
+/* === BOX START HERE  === */
+section.small_boxes .box_start {
+  box-shadow: 0px 0px 9px #e7cfcf;
+  padding: 23px 1px;
+  min-height: 154px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+section.small_boxes .box_start h6 {
+  font-family: 'Playfair-SemiBold';
+  font-size: 20px;
+  margin-bottom: 0;
+}
+
+section.small_boxes .box_start figure img {
+  max-width: 55px;
+}
+
+section.small_boxes .box_start.blue {
+  background-color: #3CBFFC;
+}
+
+section.small_boxes .box_start.blue h6 {
+  color: #FFF;
+}
+
+@media (max-width: 991px) {
+  section.small_boxes .box_start h6 {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 768px) {
+  section.small_boxes .box_start {
+    margin-top: 24px;
+  }
+}
+/* === BOX END HERE  === */
+/* === ABOUT START HERE  === */
+section.about_index .about_arians .some_peoples {
+  display: flex;
+  gap: 7%;
+}
+section.about_index .about_arians .some_peoples {
+  display: flex;
+  gap: 7%;
+}
+section.about_index .about_arians .some_peoples .single_person h6 {
+  font-size: 21px;
+}
+section.about_index .about_arians .some_peoples .single_person a {
+  color: #000000;
+  font-size: 14px;
+  font-family: 'Poppins-Bold';
+}
+section.about_index .about_arians .some_peoples .single_person p {
+  margin-bottom: 1px;
+}
+
+section.about_index .about_arians .some_peoples .single_person figure img {
+  max-width: 207px;
+}
+/* === ABOUT START HERE  === */
+/* SERVICES SECTION START HERE */
+section.services_index .single_service_list .top_service {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .single_service .service_text {
+  background: #3CBFFC;
+  padding: 17px 25px;
+  position: absolute;
+  bottom: 0px;
+  transition: 0.6s;
+  max-height: 126px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services .single_service figure {
+  margin-bottom: 0px;
+}
+
+.services .single_service .service_text p {
+  margin-bottom: 0px;
+  font-size: 12px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.services .single_service:hover p {
+  display: block;
+  font-size: 15px;
+}
+.services .single_service .service_text a {
+  color: #000000;
+  font-size: 11px;
+  text-decoration: underline;
+}
+.services .single_service {
+  position: relative;
+  transition: 0.6s all;
+}
+
+.services .single_service .service_text h6 {
+  font-size: 17px;
+  color: #000;
+  font-family: 'Playfair-SemiBold';
+}
+.services .single_service:hover .service_text {
+  height: 100%;
+  transition: 0.6s all;
+  max-height: 100%;
+  height: 100%;
+}
+.services .single_service:hover a {
+    display: none;
 }

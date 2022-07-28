@@ -1,3 +1,7 @@
+section.child_care_form {
+    padding-top: 0px;
+}
+
 .form_start {
     width: 100%;
     background: #FFF;
@@ -9,7 +13,7 @@
     display: block;
     color: #000000;
     font-family: 'Poppins-Regular';
-    font-size: 13px;
+    font-size: 12px;
     margin-bottom: 2px;
 }
 
@@ -23,19 +27,20 @@
     color: #B1BBC4;
     font-size: 13px;
 }
+
 .form_row {
-    margin-top: 19px;
+    margin-top: 10px;
 }
 
 /* CUSTom CHECKBOX */
-[type="radio"]:check ed,
-[type="radio"]:not(:ch ecked) {
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
     position: absolute;
     left: -9999px;
 }
- [type="radio"]:checked + label,
-[type="radio"]:not(:checked) +  label
-{
+
+[type="radio"]:checked+label,
+[type="radio"]:not(:checked)+label {
     position: relative;
     padding-left: 28px;
     cursor: pointer;
@@ -43,40 +48,145 @@
     display: inline-block;
     color: #666;
 }
- [type="radio"]:checked + label:before,
-[type="radio"]:not(:checked) + label: before {
+
+[type="radio"]:checked+label:before,
+[type="radio"]:not(:checked)+label:before {
     content: '';
     position: absolute;
     left: 0;
     top: 0;
-    width: 18px;
-    height: 18px;
-    border: 1px solid #ddd;
+    width: 17px;
+    height: 17px;
+    border: 1px solid transparent;
     border-radius: 100%;
     background: #fff;
 }
- [type="radio"]:checked + label:after,
-[type="radio"]:not(:checked) + label :after {
+
+[type="radio"]:checked+label:after,
+[type="radio"]:not(:checked)+label:after {
     content: '';
-    width: 16px;
-    height: 16px;
+    width: 17px;
+    height: 17px;
     background: #101010;
     position: absolute;
-    top: 4px;
+    top: 2px;
     border: 2px solid #FFF;
-    left: 4px;
+    left: 2px;
+    margin-left: -2px;
+    box-shadow: 0px 0px 0px 1.5px #101010;
     border-radius: 100%;
     -webkit-transition: all 0.2s ease;
     transition: all 0.2s ease;
-    box-shadow: 0px 0px 0px 1px #300c44;
 }
- [type="radio"]:not(:checked) + label:after {
+
+[type="radio"]:not(:checked)+label:after {
     opacity: 0;
     -webkit-transform: scale(0);
     transform: scale(0);
 }
- [type="radio"]:checked + label:after {
+
+[type="radio"]:checked+label:after {
     opacity: 1;
     -webkit-transform: scale(1);
     transform: scale(1);
+}
+
+[type="radio"]:not(:checked)+label:before {
+    box-shadow: 0px 0px 0px 1.5px #707070;
+    border: 2px solid transparent;
+    height: 16px;
+    width: 16px;
+}
+
+.for_time {
+    padding: 34px 0px;
+}
+
+.for_time .form_row {
+    margin-top: 13px;
+}
+
+.for_time h6 {
+    font-size: 15px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+section.contact_blue_lines {
+    background-image: url(../img/blue.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px;
+    height: 134px;
+}
+
+section.contact_blue_lines .contact_us_on {
+    display: flex;
+    align-items: center;
+    gap: 7%;
+    height: 100%;
+}
+section.contact_blue_lines .contact_us_on .call_us h6 {
+    color: #FFF;
+    font-style: italic;
+    margin-bottom: 5px;
+    font-family: 'Playfair-Italic';
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+.contact_info {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+section.contact_blue_lines .contact_us_on .contact_info a {
+    display: block;
+    color: #FFF;
+    font-family: 'Playfair-Bold';
+    font-size: 57px;
+    position: relative;
+    top: -4px;
+}
+figure{
+    margin-bottom: 0px;
+}
+section.contact_blue_lines .contact_us_on .call_us h3 {
+    color: #FFF;
+}
+@media (max-width: 1200px){
+    section.contact_blue_lines .contact_us_on .call_us h6 {
+        margin-bottom: 5px;
+        font-size: 15px;
+    }
+    section.contact_blue_lines .contact_us_on .call_us h3 {
+        font-size: 24px;
+    }
+    section.contact_blue_lines .contact_us_on .contact_info a {
+        font-size: 33px;
+    }
+    section.contact_blue_lines .contact_us_on .contact_info figure img {
+        max-width: 38px;
+    }
+    section.contact_blue_lines .contact_us_on {
+        justify-content: space-evenly;
+    }
+}
+@media (max-width: 768px){
+    section.contact_blue_lines{
+        padding: 12px 0px;
+    }
+    section.contact_blue_lines .contact_us_on{
+        flex-direction: column;
+    }
+}
+@media (max-width: 576px){
+    section.contact_blue_lines{
+        padding: 12px 0px;
+    }
+    section.contact_blue_lines .contact_us_on{
+        flex-direction: column;
+    }
+    section.contact_blue_lines .contact_us_on .call_us h3 {
+        font-size: 18px;
+    }
 }

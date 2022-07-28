@@ -1,0 +1,98 @@
+section.contact_us .contact_card {
+    background-color: #3CBFFC;
+    padding: 33px 0px 66px 22px;
+    border-radius: 10px;
+}
+.contact_on {
+    display: flex;
+    align-items: start;
+    gap: 16px;
+    margin-top: 25px;
+}
+section.contact_us .contact_card .follow_us .social_links a {
+    display: block;
+}
+
+section.contact_us .contact_card .follow_us .social_links {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+}
+
+section.contact_us .contact_card .follow_us p {
+    margin-bottom: 6px;
+    font-family: 'Poppins-Light';
+    font-size: 14px;
+}
+
+section.contact_us .contact_card .follow_us {
+    margin-top: 14px;
+}
+section.contact_us .contact_card .all_contact .contact_on p {
+    color: #000;
+    font-size: 14px;
+    position: relative;
+    font-family: 'Poppins-Light';
+    top: -1px;
+    margin-bottom: 0;
+}
+figure{
+    margin-bottom: 0px;
+}
+section.contact_us .contact_card h5 {
+    font-family: 'Playfair-SemiBold';
+    font-size: 28px;
+}
+
+section.contact_us .contact_card .all_contact {
+    margin-top: 22px;
+}
+section.contact_us .contact_card .follow_us {
+    margin-top: 50px;
+}
+
+.form_row label {
+    display: block;
+    color: #000000;
+    font-family: 'Poppins-Regular';
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.form_row input,.form_row textarea {
+    width: 100%;
+    margin-top: 1px;
+    border: 1px solid #C3CAD9;
+    padding: 0px 16px;
+    height: 46px;
+    background: #F3F3F3;
+    color: #B1BBC4;
+    font-size: 13px;
+}
+
+.form_row {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.form_row .single_input {
+    width: 45%;
+}
+.form_row textarea {
+    resize: none;
+    height: 150px;
+}
+@media (max-width: 991px){
+    .for_the_form{
+        margin-left: 0px !important;
+        margin-top: 65px;
+    }
+}
+@media (max-width: 576px){
+    .single_input{
+        width: 100% !important;
+    }
+    .form_row{
+        display: unset;
+    }
+}

@@ -1,0 +1,25 @@
+.single_testimonial:not(:last-child)::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: 80%;
+    height: 1px;
+    background: #707070;
+    margin-left: auto;
+    opacity: 0.5;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-top: 25px;
+    margin-bottom: 29px;
+}
+section.about_text {
+    padding-top: 51px;
+    padding-bottom: 24px;
+}
+section.testimonials_section {
+    padding-top: 84px;
+}
+h6.blue{
+  font-family: "Pala-Bold";
+  font-style: unset;
+}
