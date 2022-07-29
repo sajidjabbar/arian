@@ -21,6 +21,9 @@
 <link href="css/boxicons.min.css" rel="stylesheet">
 <link href="css/glightbox.min.css" rel="stylesheet">
 <link href="css/swiper-bundle.min.css" rel="stylesheet">
-
+ <!-- slickslider -->
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+    <!-- slickslider -->
 <!-- Template Main CSS File -->
 <link href="css/style.css" rel="stylesheet">

@@ -9,46 +9,63 @@
 # General
 --------------------------------------------------------------*/
 /* FONTS */
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url(../fonts/montserrat/Montserrat-Bold.otf);
+}
+@font-face {
+  font-family: "Montserrat-ExtraBold";
+  src: url(../fonts/montserrat/Montserrat-ExtraBold.otf);
+}
+@font-face {
+  font-family: "Montserrat-Light";
+  src: url(../fonts/montserrat/Montserrat-Light.otf);
+}
+@font-face {
+  font-family: "Montserrat-Medium";
+  src: url(../fonts/montserrat/Montserrat-Medium.otf);
+}
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url(../fonts/montserrat/Montserrat-Regular.otf);
+}
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url(../fonts/montserrat/Montserrat-SemiBold.otf);
+}
 @font-face {
   font-family: "Pala-Bold";
   src: url(../fonts/Palatino/palab.ttf);
 }
-
 @font-face {
   font-family: "Playfair-Italic";
   src: url(../fonts/playfair/PlayfairDisplay-Italic.ttf);
 }
-
 @font-face {
   font-family: "Playfair-Bold";
   src: url(../fonts/playfair/PlayfairDisplay-Bold.ttf);
 }
-
 @font-face {
   font-family: "Playfair-SemiBold";
   src: url(../fonts/playfair/PlayfairDisplay-SemiBold.ttf);
 }
-
 @font-face {
   font-family: "Playfair-Regular";
   src: url(../fonts/playfair/PlayfairDisplay-Regular.ttf);
 }
-
 @font-face {
   font-family: "Poppins-Light";
   src: url(../fonts/popins/Poppins-Light.ttf);
 }
-
 @font-face {
   font-family: "Poppins-Bold";
   src: url(../fonts/popins/Poppins-Bold.ttf);
 }
-
 @font-face {
   font-family: "Poppins-Regular";
   src: url(../fonts/popins/Poppins-Regular.ttf);
 }
-
 @font-face {
   font-family: "Poppins-Medium";
   src: url(../fonts/popins/Poppins-Medium.ttf);
@@ -299,6 +316,7 @@ span {
   transition: all 0.5s;
   color: #fff;
   padding: 0;
+  padding-top: 7px;
 }
 
 #topbar .contact-info i {
@@ -319,7 +337,7 @@ span {
   letter-spacing: 1px;
   display: inline-block;
   padding: 10px 28px;
-  border-radius: 4px;
+  /* border-radius: 4px; */
   transition: 0.5s;
   color: #fff !important;
   background: #3CBFFC;
@@ -336,7 +354,7 @@ span {
 .call-text span {
   font-weight: bold;
   color: #3CBFFC;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 2.2px;
 }
 
@@ -376,7 +394,7 @@ span {
   background: #fff;
   transition: all 0.5s;
   z-index: 997;
-  height: 86px;
+  height: 70px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -405,6 +423,7 @@ span {
 #header .logo img {
   max-height: 100px;
   z-index: 999999 !important;
+  position: absolute;
 }
 
 .scrolled-offset {
@@ -420,6 +439,7 @@ span {
 .navbar {
   padding: 0;
   margin-top: 25px;
+  align-items: center;
 }
 
 img {
@@ -557,6 +577,11 @@ img {
 /**
 * Mobile Navigation 
 */
+i.bi.bi-list.mobile-nav-toggle {
+  position: absolute;
+  right: 0px;
+  top: 24px;
+}
 .mobile-nav-toggle {
   color: #222222;
   font-size: 28px;
@@ -2114,24 +2139,29 @@ section.small_boxes .box_start.blue h6 {
     margin-top: 24px;
   }
 }
+
 /* === BOX END HERE  === */
 /* === ABOUT START HERE  === */
 section.about_index .about_arians .some_peoples {
   display: flex;
   gap: 7%;
 }
+
 section.about_index .about_arians .some_peoples {
   display: flex;
   gap: 7%;
 }
+
 section.about_index .about_arians .some_peoples .single_person h6 {
   font-size: 21px;
 }
+
 section.about_index .about_arians .some_peoples .single_person a {
   color: #000000;
   font-size: 14px;
   font-family: 'Poppins-Bold';
 }
+
 section.about_index .about_arians .some_peoples .single_person p {
   margin-bottom: 1px;
 }
@@ -2139,13 +2169,19 @@ section.about_index .about_arians .some_peoples .single_person p {
 section.about_index .about_arians .some_peoples .single_person figure img {
   max-width: 207px;
 }
+
 /* === ABOUT START HERE  === */
 /* SERVICES SECTION START HERE */
+section.services_index .single_service_list:not(:first-child) {
+  margin-top: 111px;
+}
+
 section.services_index .single_service_list .top_service {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .services .single_service .service_text {
   background: #3CBFFC;
   padding: 17px 25px;
@@ -2166,21 +2202,31 @@ section.services_index .single_service_list .top_service {
 .services .single_service .service_text p {
   margin-bottom: 0px;
   font-size: 12px;
+
+}
+
+.services .single_service .service_text .main_text {
   display: -webkit-box;
-  -webkit-line-clamp: 2;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.services .single_service:hover p {
+
+.services .single_service:hover .main_text {
   display: block;
+}
+
+.services .single_service:hover .main_text p {
   font-size: 15px;
 }
+
 .services .single_service .service_text a {
   color: #000000;
   font-size: 11px;
   text-decoration: underline;
 }
+
 .services .single_service {
   position: relative;
   transition: 0.6s all;
@@ -2191,12 +2237,304 @@ section.services_index .single_service_list .top_service {
   color: #000;
   font-family: 'Playfair-SemiBold';
 }
+
 .services .single_service:hover .service_text {
   height: 100%;
   transition: 0.6s all;
   max-height: 100%;
   height: 100%;
 }
+
 .services .single_service:hover a {
-    display: none;
+  display: none;
+}
+
+/* END HERE */
+/* TESTIMONIAL START HERE */
+section.testimonials_section .testmonials_back::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 88vw;
+  top: 0px;
+  height: 60%;
+  margin-left: 6vw;
+  background: #3CBFFC;
+}
+
+.testimonial_box {
+  padding-left: 28%;
+  background-color: #FFF;
+  padding-top: 31px;
+  padding-bottom: 14px;
+  padding-right: 37px;
+  z-index: 9999999999999999;
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.testimonial_box .top_heading img {
+  position: absolute;
+  left: -36px;
+  width: 27px;
+}
+
+.testimonial_box .top_heading {
+  position: relative;
+}
+
+.testimonial_box .top_heading span {
+  font-family: 'Poppins-Regular';
+  font-size: 14px;
+}
+
+.testimonial_box .top_heading::after {
+  content: "";
+  display: block;
+  width: 41px;
+  height: 1px;
+  background: black;
+  border-radius: 4px;
+  margin-top: 8px;
+  margin-bottom: 34px;
+}
+
+.testimonial_box .testimonials_body p {
+  font-size: 9px;
+}
+
+/* .testimonial_box::after {
+  content: "";
+  display: block;
+  width: 224px;
+  position: relative;
+  background: #FFF;
+  height: 27px;
+  bottom: -23px;
+  z-index: 0;
+  transform: translate(-10%, 28px);
+  transform: translateX(10px);
+  box-shadow: 0px 0px 4px #e7cfcf;
+}
+
+.testimonial_box .testimonials_body {
+  position: relative;
+  z-index: 100;
+} */
+.small_shadow {
+  display: block;
+  width: 151%;
+  position: relative;
+  background: #F6F6F6;
+  height: 19px;
+  bottom: -24px;
+  left: -33px;
+  z-index: -2;
+  left: -36%;
+}
+
+div.test {
+  max-width: 268px;
+  padding-bottom: 22px;
+}
+
+.test:not(:first-child) {
+  margin-left: 32px;
+}
+
+.all_testimonial {
+  width: 80%;
+}
+
+button.slick-prev.slick-arrow::before {
+  content: unset;
+}
+
+button.slick-prev.slick-arrow {
+  width: 45px;
+  height: 42px;
+  background-image: url(../img/left.png);
+  left: -78px;
+  background-size: 38px;
+  background-repeat: no-repeat;
+}
+
+button.slick-next.slick-arrow::before {
+  content: unset;
+}
+
+button.slick-next.slick-arrow {
+  display: block;
+  height: 44px;
+  width: 45px;
+  background-image: url(../img/right.png);
+  right: -50px;
+  background-size: 38px;
+  background-repeat: no-repeat;
+}
+.testmonials_back {
+  padding-top: 42px;
+  position: relative;
+  margin-top: 63px;
+}
+section.contact_section_start_here {
+  background: #F6F6F6;
+  padding: 66px 0px 81px;
+}
+.single_contact {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+  margin-top: 59px;
+}
+.custom_width.mx-auto {
+  width: 86%;
+}
+/* FORM CSS HERE */
+.contact_form {
+  width: 100%;
+  background: #FFFFFF;
+  padding: 25px 35px 117px;
+  height: 100%;
+  box-shadow: 0px 0px 4px #e7cfcf;
+}
+.contact_form form .form_row {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 19px;
+}
+.contact_form form .form_row .single_input {
+  width: 45%;
+}
+.contact_form form .form_row input,
+.contact_form form .form_row select,
+.contact_form form .form_row textarea {
+  width: 100%;
+  background: #F6F6F6;
+  border: 0px;
+  height: 49px;
+  color: #636060;
+  font-family: "Roboto-Light";
+  font-size: 13px;
+  padding-left: 20px;
+}
+.contact_form form .form_row textarea {
+  resize: none;
+  height: 171px;
+  padding-top: 22px;
+}
+.contact_form .form_top_text {
+  margin-bottom: 51px;
+}
+.submit_btn {
+  margin-top: 20px;
+}
+p.point::before {
+  content: "";
+  display: block;
+  position: relative;
+  width: 25px;
+  top: 1px;
+  height: 25px;
+  background-image: url(../img/point.png);
+  background-repeat: no-repeat;
+  margin-right: 14px;
+}
+p.point {
+  display: flex;
+  margin-bottom: 7px;
+}
+h5{
+  font-size: 26px;
+  font-family: "Playfair-Bold";
+  color: #000000;
+}
+/* FOOTER START HERE */
+footer.footer ul li{
+  list-style-type: none;
+}
+footer.footer figure{
+  margin-bottom: unset;
+}
+footer.footer .footer_first_side ul {
+  display: flex;
+  gap: 12px;
+  padding-left: 0;
+}
+
+footer.footer .footer_first_side ul li a img {
+  max-width: 29px;
+}
+
+footer.footer {
+  padding-top: 80px;
+}
+
+footer.footer .footer_first_side .footer_logo figure img {
+  max-width: 132px;
+}
+
+footer.footer .footer_first_side .footer_logo figure {
+  margin-bottom: 15px;
+}
+footer.footer .for_heading h5 {
+  font-size: 19px;
+  color: #000000;
+  font-family: 'Poppins-SemiBold';
+}
+footer.footer ul {
+  padding-left: unset;
+}
+
+footer.footer .for_heading {
+  margin-bottom: 38px;
+}
+
+footer.footer .footer_links ul li {
+  margin: 18px 0px;
+}
+
+footer.footer .footer_links ul li a {
+  color: #000000;
+  font-size: 14px;
+  font-family: "Montserrat-Regular";
+  transition: 0.6s all;
+}
+footer.footer .footer_links ul li a:hover{
+  color: #0d58ba;
+}
+footer.footer .footer_contacts ul li a {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+footer.footer .footer_contacts ul li a span {
+  font-family: 'Montserrat-Regular';
+  font-size: 14px;
+  color: #000000;
+}
+footer.footer .footer_contacts ul li {
+  margin: 18px 0;
+}
+@media (max-width: 991px){
+  .footer_links, .footer_contacts{
+    margin-top: 40px;
+  }
+}
+/* FOOTER END HERE */
+@media (max-width: 991px){
+  .search-section {
+    margin-left: 19%;
+    display: none !important;
+}
+#topbar {
+  display: none !important;
+}
+#header .logo img {
+  max-height: 74px;
+  z-index: 999999 !important;
+  position: unset;
+}
 }

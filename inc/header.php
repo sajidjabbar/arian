@@ -1,5 +1,5 @@
 <!-- ======= Top Bar ======= -->
-<section id="topbar" class="d-flex align-items-center">
+<section id="topbar" class="">
     <div class="container d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
             <i class="bi bi-envelope d-flex align-items-center"><span>Email Us: <br>someone@gmail.com</span></i>
@@ -22,31 +22,11 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="#hero">HOME</a></li>
-                <li><a class="nav-link scrollto" href="#about">ABOUT</a></li>
-                <li><a class="nav-link scrollto" href="#services">TESTIMONIALS</a></li>
-                <li><a class="nav-link scrollto " href="#portfolio">PRIVACY POLICY</a></li>
-<!--                <li><a class="nav-link scrollto" href="#team">Team</a></li>-->
-<!--                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>-->
-<!--                    <ul>-->
-<!--                        <li><a href="#">Drop Down 1</a></li>-->
-<!--                        <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>-->
-<!--                            <ul>-->
-<!--                                <li><a href="#">Deep Drop Down 1</a></li>-->
-<!--                                <li><a href="#">Deep Drop Down 2</a></li>-->
-<!--                                <li><a href="#">Deep Drop Down 3</a></li>-->
-<!--                                <li><a href="#">Deep Drop Down 4</a></li>-->
-<!--                                <li><a href="#">Deep Drop Down 5</a></li>-->
-<!--                            </ul>-->
-<!--                        </li>-->
-<!--                        <li><a href="#">Drop Down 2</a></li>-->
-<!--                        <li><a href="#">Drop Down 3</a></li>-->
-<!--                        <li><a href="#">Drop Down 4</a></li>-->
-<!--                    </ul>-->
-<!--                </li>-->
-<!--                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>-->
+                <li><a class="nav-link scrollto active" href="index.php">HOME</a></li>
+                <li><a class="nav-link scrollto" href="about.php">ABOUT</a></li>
+                <li><a class="nav-link scrollto" href="">TESTIMONIALS</a></li>
+                <li><a class="nav-link scrollto " href="">PRIVACY POLICY</a></li>
             </ul>
-            <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
         <div class="d-flex align-items-center justify-content-center search-section">
             <i class="bi bi-search mr-3"></i>
@@ -54,8 +34,10 @@
                 <p>Call us for any question</p>
                 <span>(778) 7724087</span>
             </div>
-            <a href="javascript:void(0);" class="btn-get-started scrollto">Contact Us</a>
+            <a href="contact.php" class="btn-get-started scrollto">Contact Us</a>
         </div>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
     </div>
 
 </header><!-- End Header -->
