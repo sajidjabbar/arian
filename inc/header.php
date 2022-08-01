@@ -24,7 +24,7 @@
             <ul>
                 <li><a class="nav-link scrollto active" href="index.php">HOME</a></li>
                 <li><a class="nav-link scrollto" href="about.php">ABOUT</a></li>
-                <li><a class="nav-link scrollto" href="">TESTIMONIALS</a></li>
+                <li><a class="nav-link scrollto" href="testimonials.php">TESTIMONIALS</a></li>
                 <li><a class="nav-link scrollto " href="">PRIVACY POLICY</a></li>
             </ul>
         </nav><!-- .navbar -->

@@ -606,27 +606,7 @@
                             <div class="small_shadow"></div>
                         </div>
                     </div>
-                    <div class="test">
-                        <div class="testimonial_box">
-                            <div class="top_heading">
-                                <img src="img/testimonial.png" alt="">
-                                <span>Pervis Fazal</span>
-                            </div>
-                            <div class="testimonials_body">
-                                <p>Arian Home Care has been a caregiver companion for my mum for the past year. They are
-                                    very compassionate and devoted, treats my mum as she would her mother...</p>
-                                <div class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                            
-                        </div>
-                        <div class="small_shadow"></div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

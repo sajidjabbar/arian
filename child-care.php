@@ -83,23 +83,23 @@
                         </div>
                         <div class="form_row">
                             <input type="radio" hidden id="test6" name="radio-group">
-                            <label for="test6">Other</label>
+                            <label for="test6" class="test6">Other <input type="text" name="" class="others" id=""></label>
                         </div>
                     </div>
                     <div class="form_row">
-                        <label for="">Email *</label>
+                        <label for="">In Case Of Emergency (Contact Info, Doctors Info, etc) *</label>
                         <input type="text" name="" id="" placeholder="Your answer">
                     </div>
                     <div class="form_row">
-                        <label for="">Email *</label>
+                        <label for="">Food Allergies, Other Allergies *</label>
                         <input type="text" name="" id="" placeholder="Your answer">
                     </div>
                     <div class="form_row">
-                        <label for="">Email *</label>
+                        <label for="">Educational, Game Activites, Nap Times *</label>
                         <input type="text" name="" id="" placeholder="Your answer">
                     </div>
                     <div class="form_row">
-                        <label for="">Email *</label>
+                        <label for="">Additional Notes</label>
                         <input type="text" name="" id="" placeholder="Your answer">
                     </div>
                     <div class="submit_btn text-right mt-3">

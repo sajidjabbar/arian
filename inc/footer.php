@@ -49,7 +49,7 @@
                         <li>
                             <a href="">
                                 <figure><img src="img/f_phone.png" class="img-fluid" alt=""></figure>
-                                <span>(778) 7724087</span>
+                                <span>(778) 9271348</span>
                             </a>
                         </li>
                         <li>

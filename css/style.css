@@ -1333,7 +1333,9 @@ section.custom_banner .custom_banner_text p img {
   margin-top: 20px;
   position: relative;
 }
-
+.stars i::before {
+  color: #F4C914;
+}
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;

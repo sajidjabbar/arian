@@ -190,3 +190,19 @@ section.contact_blue_lines .contact_us_on .call_us h3 {
         font-size: 18px;
     }
 }
+
+input.others {
+    border: unset;
+    border-bottom: 1px solid #707070;
+    height: 16px;
+    max-width: 147px;
+    background-color: transparent;
+    margin-left: 18px;
+    outline: none;
+}
+
+
+label.test6 {
+    display: flex !important;
+    align-items: flex-start;
+}
