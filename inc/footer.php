@@ -23,8 +23,9 @@
                     </div>
                     <ul>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="../about.php">About Us</a></li>
-                        <li><a href="../child-care.php">ChildCare</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="child-care.php">ChildCare</a></li>
+                        <li><a href="senior-care.php">ChildCare</a></li>
                         <li><a href="">Others</a></li>
                     </ul>
                 </div>
