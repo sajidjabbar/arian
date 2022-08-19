@@ -14,58 +14,72 @@
   font-family: "Montserrat-Bold";
   src: url(../fonts/montserrat/Montserrat-Bold.otf);
 }
+
 @font-face {
   font-family: "Montserrat-ExtraBold";
   src: url(../fonts/montserrat/Montserrat-ExtraBold.otf);
 }
+
 @font-face {
   font-family: "Montserrat-Light";
   src: url(../fonts/montserrat/Montserrat-Light.otf);
 }
+
 @font-face {
   font-family: "Montserrat-Medium";
   src: url(../fonts/montserrat/Montserrat-Medium.otf);
 }
+
 @font-face {
   font-family: "Montserrat-Regular";
   src: url(../fonts/montserrat/Montserrat-Regular.otf);
 }
+
 @font-face {
   font-family: "Montserrat-SemiBold";
   src: url(../fonts/montserrat/Montserrat-SemiBold.otf);
 }
+
 @font-face {
   font-family: "Pala-Bold";
   src: url(../fonts/Palatino/palab.ttf);
 }
+
 @font-face {
   font-family: "Playfair-Italic";
   src: url(../fonts/playfair/PlayfairDisplay-Italic.ttf);
 }
+
 @font-face {
   font-family: "Playfair-Bold";
   src: url(../fonts/playfair/PlayfairDisplay-Bold.ttf);
 }
+
 @font-face {
   font-family: "Playfair-SemiBold";
   src: url(../fonts/playfair/PlayfairDisplay-SemiBold.ttf);
 }
+
 @font-face {
   font-family: "Playfair-Regular";
   src: url(../fonts/playfair/PlayfairDisplay-Regular.ttf);
 }
+
 @font-face {
   font-family: "Poppins-Light";
   src: url(../fonts/popins/Poppins-Light.ttf);
 }
+
 @font-face {
   font-family: "Poppins-Bold";
   src: url(../fonts/popins/Poppins-Bold.ttf);
 }
+
 @font-face {
   font-family: "Poppins-Regular";
   src: url(../fonts/popins/Poppins-Regular.ttf);
 }
+
 @font-face {
   font-family: "Poppins-Medium";
   src: url(../fonts/popins/Poppins-Medium.ttf);
@@ -582,6 +596,7 @@ i.bi.bi-list.mobile-nav-toggle {
   right: 0px;
   top: 24px;
 }
+
 .mobile-nav-toggle {
   color: #222222;
   font-size: 28px;
@@ -1333,9 +1348,11 @@ section.custom_banner .custom_banner_text p img {
   margin-top: 20px;
   position: relative;
 }
+
 .stars i::before {
   color: #F4C914;
 }
+
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
@@ -2184,6 +2201,16 @@ section.services_index .single_service_list .top_service {
   align-items: center;
 }
 
+@media (max-width: 768px) {
+  section.services_index .single_service_list .top_service {
+    display: unset;
+  }
+  .request_now {
+    text-align: right;
+    margin-top: 21px;
+  }
+}
+
 .services .single_service .service_text {
   background: #3CBFFC;
   padding: 17px 25px;
@@ -2373,24 +2400,29 @@ button.slick-next.slick-arrow {
   background-size: 38px;
   background-repeat: no-repeat;
 }
+
 .testmonials_back {
   padding-top: 42px;
   position: relative;
   margin-top: 63px;
 }
+
 section.contact_section_start_here {
   background: #F6F6F6;
   padding: 66px 0px 81px;
 }
+
 .single_contact {
   display: flex;
   align-items: center;
   gap: 22px;
   margin-top: 59px;
 }
+
 .custom_width.mx-auto {
   width: 86%;
 }
+
 /* FORM CSS HERE */
 .contact_form {
   width: 100%;
@@ -2399,6 +2431,7 @@ section.contact_section_start_here {
   height: 100%;
   box-shadow: 0px 0px 4px #e7cfcf;
 }
+
 .contact_form form .form_row {
   width: 100%;
   display: flex;
@@ -2406,9 +2439,11 @@ section.contact_section_start_here {
   align-items: center;
   margin-top: 19px;
 }
+
 .contact_form form .form_row .single_input {
   width: 45%;
 }
+
 .contact_form form .form_row input,
 .contact_form form .form_row select,
 .contact_form form .form_row textarea {
@@ -2421,17 +2456,21 @@ section.contact_section_start_here {
   font-size: 13px;
   padding-left: 20px;
 }
+
 .contact_form form .form_row textarea {
   resize: none;
   height: 171px;
   padding-top: 22px;
 }
+
 .contact_form .form_top_text {
   margin-bottom: 51px;
 }
+
 .submit_btn {
   margin-top: 20px;
 }
+
 p.point::before {
   content: "";
   display: block;
@@ -2443,22 +2482,27 @@ p.point::before {
   background-repeat: no-repeat;
   margin-right: 14px;
 }
+
 p.point {
   display: flex;
   margin-bottom: 7px;
 }
-h5{
+
+h5 {
   font-size: 26px;
   font-family: "Playfair-Bold";
   color: #000000;
 }
+
 /* FOOTER START HERE */
-footer.footer ul li{
+footer.footer ul li {
   list-style-type: none;
 }
-footer.footer figure{
+
+footer.footer figure {
   margin-bottom: unset;
 }
+
 footer.footer .footer_first_side ul {
   display: flex;
   gap: 12px;
@@ -2480,11 +2524,13 @@ footer.footer .footer_first_side .footer_logo figure img {
 footer.footer .footer_first_side .footer_logo figure {
   margin-bottom: 15px;
 }
+
 footer.footer .for_heading h5 {
   font-size: 19px;
   color: #000000;
   font-family: 'Poppins-SemiBold';
 }
+
 footer.footer ul {
   padding-left: unset;
 }
@@ -2503,9 +2549,11 @@ footer.footer .footer_links ul li a {
   font-family: "Montserrat-Regular";
   transition: 0.6s all;
 }
-footer.footer .footer_links ul li a:hover{
+
+footer.footer .footer_links ul li a:hover {
   color: #0d58ba;
 }
+
 footer.footer .footer_contacts ul li a {
   display: flex;
   align-items: flex-start;
@@ -2517,26 +2565,33 @@ footer.footer .footer_contacts ul li a span {
   font-size: 14px;
   color: #000000;
 }
+
 footer.footer .footer_contacts ul li {
   margin: 18px 0;
 }
-@media (max-width: 991px){
-  .footer_links, .footer_contacts{
+
+@media (max-width: 991px) {
+
+  .footer_links,
+  .footer_contacts {
     margin-top: 40px;
   }
 }
+
 /* FOOTER END HERE */
-@media (max-width: 991px){
+@media (max-width: 991px) {
   .search-section {
     margin-left: 19%;
     display: none !important;
-}
-#topbar {
-  display: none !important;
-}
-#header .logo img {
-  max-height: 74px;
-  z-index: 999999 !important;
-  position: unset;
-}
+  }
+
+  #topbar {
+    display: none !important;
+  }
+
+  #header .logo img {
+    max-height: 74px;
+    z-index: 999999 !important;
+    position: unset;
+  }
 }

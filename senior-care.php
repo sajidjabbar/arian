@@ -339,7 +339,7 @@
                 <figure>
                     <img src="img/call.png" alt="">
                 </figure>
-                <a href="tel: (778) 7724087">(778) 7724087</a>
+                <a href="tel: (778) 9271348">(778) 9271348</a>
             </div>
         </div>
     </div>

@@ -131,7 +131,7 @@
                     <h4>Senior And Special Needs Care</h4>
                 </div>
                 <div class="request_now">
-                    <a href="" class="btn">Request A Quote Now</a>
+                    <a href="senior-care.php" class="btn">Request A Quote Now</a>
                 </div>
             </div>
             <div class="services">
@@ -250,7 +250,7 @@
                     <h4>Child Care</h4>
                 </div>
                 <div class="request_now">
-                    <a href="" class="btn">Request A Quote Now</a>
+                    <a href="child-care.php" class="btn">Request A Quote Now</a>
                 </div>
             </div>
             <div class="services">

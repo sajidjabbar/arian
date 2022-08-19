@@ -32,7 +32,7 @@
             <i class="bi bi-search mr-3"></i>
             <div class="mr-3 call-text">
                 <p>Call us for any question</p>
-                <span>(778) 7724087</span>
+                <span>(778) 9271348</span>
             </div>
             <a href="contact.php" class="btn-get-started scrollto">Contact Us</a>
         </div>

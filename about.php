@@ -40,7 +40,7 @@
             <p class="mb-4">
                 We aspire to make things happen for our clients. We are not a large corporate with a strict system,
                 therefore we can be flexible to work with different budget and service needs to accomplish what works
-                best for our clients. Contact us at (778) 7724087 for a free consultation on how we fulfill the support
+                best for our clients. Contact us at (778) 9271348 for a free consultation on how we fulfill the support
                 you need.
             </p>
         </div>
@@ -65,7 +65,7 @@
                         <div class="partner_detail mx-auto">
                             <h6>Kamelia Aria</h6>
                             <p class="mb-0">Client Care Manager, Owner</p>
-                            <span>(778) 7724087</span>
+                            <span>(778) 9271348</span>
                         </div>
                     </div>
                 </div>
@@ -77,7 +77,7 @@
                         <div class="partner_detail mx-auto">
                             <h6>Kimia Jarrahian</h6>
                             <p class="mb-0">Client Care Manager, Owner</p>
-                            <span>(778) 7724087</span>
+                            <span>(778) 9271348</span>
                         </div>
                     </div>
                 </div>
