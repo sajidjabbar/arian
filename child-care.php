@@ -4,11 +4,11 @@
 <section class="custom_banner">
     <div class="container">
         <div class="custom_banner_text">
-            <h2>About Us</h2>
+            <h2>Child Care</h2>
             <p>
                 <a href="index.php">Home</a>
                 <img src="img/inner.png" alt="">
-                <a href="about.php">About Us</a>
+                <a href="about.php">Child Care</a>
             </p>
         </div>
     </div>

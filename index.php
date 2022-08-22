@@ -101,7 +101,7 @@
                             <div class="texts">
                                 <h6>Kamelia Aria</h6>
                                 <p>Client Care Manager, Owner</p>
-                                <a href="tel: 778-772-4087">778-772-4087</a>
+                                <a href="tel: (778) 9271348">(778) 9271348</a>
                             </div>
                         </div>
                         <div class="single_person">
@@ -111,7 +111,7 @@
                             <div class="texts">
                                 <h6>Kimia Jarrahian</h6>
                                 <p>Project & Operations Manager, Owner</p>
-                                <a href="tel: 604-771-4087">604-771-4087</a>
+                                <a href="tel: (778) 9271348">(778) 9271348</a>
                             </div>
                         </div>
                     </div>

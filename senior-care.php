@@ -36,7 +36,7 @@
                         <input type="text" name="" id="" placeholder="Your answer">
                     </div>
                     <div class="form_row">
-                        <label for="">Full name of client the app;lication is for (Type "same" if you are applying for
+                        <label for="">Full name of client the application is for (Type "same" if you are applying for
                             yourself.) All the next questions should be answer regarding this person*</label>
                         <input type="text" name="" id="" placeholder="Your answer">
                     </div>

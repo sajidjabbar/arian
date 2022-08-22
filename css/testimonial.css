@@ -12,14 +12,60 @@
     margin-top: 25px;
     margin-bottom: 29px;
 }
+
 section.about_text {
     padding-top: 51px;
     padding-bottom: 24px;
 }
+
 section.testimonials_section {
     padding-top: 84px;
 }
-h6.blue{
-  font-family: "Pala-Bold";
-  font-style: unset;
+
+h6.blue {
+    font-family: "Pala-Bold";
+    font-style: unset;
+}
+
+.banner_text {
+    position: absolute;
+    left: 7%;
+    top: 43%;
+    bottom: 20%;
+    display: flex;
+    gap: 16px;
+}
+
+.banner_text figure img {
+    max-width: 26px;
+}
+
+@media(max-width: 991px) {
+    .banner_text p {
+        font-size: 11px;
+    }
+
+    .banner_text h4 {
+        font-size: 21px !important;
+    }
+    .banner_text figure img {
+        max-width: 19px;
+    }
+}
+@media (max-width: 576px){
+    .banner_text h4 {
+        font-size: 10px !important;
+    }
+    .banner_text h4 {
+        font-size: 10px !important;
+    }
+    .banner_text {
+        left: 3%;
+        top: 24%;
+        bottom: 20%;
+        gap: 9px;
+    }
+    .banner_text figure img {
+        max-width: 15px;
+    }
 }

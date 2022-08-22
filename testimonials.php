@@ -4,11 +4,11 @@
 <section class="custom_banner">
     <div class="container">
         <div class="custom_banner_text">
-            <h2>Contact Us</h2>
+            <h2>Testimonials</h2>
             <p>
                 <a href="index.php">Home</a>
                 <img src="img/inner.png" alt="">
-                <a href="about.php">Contact Us</a>
+                <a href="testimonials.php">Testimonials</a>
             </p>
         </div>
     </div>
@@ -18,7 +18,16 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/abcd_banner.png" alt="First slide">
+            <img class="d-block w-100" src="img/testimonial_back.png" alt="First slide">
+            <div class="banner_text">
+                <figure>
+                    <img src="img/marks.png" class="img-fluid" alt="">
+                </figure>
+                <div class="text">
+                    <h4>do you have an ICBC claim?</h4>
+                    <p>Your recovery needs can be covered All <br> that’s needed is your claim number</p>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -70,7 +79,7 @@
             </div>
             <div class="single_testimonial text-center">
                 <p>
-                We used their service for our mom, very happy and excellent service.
+                    We used their service for our mom, very happy and excellent service.
                 </p>
                 <h6 class="blue">Mrs. Nasrin Samimi</h6>
             </div>

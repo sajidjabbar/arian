@@ -106,7 +106,7 @@
                                 </figure>
                                 <div class="contact_here">
                                     <h5 class="mb-0">Call Us :</h5>
-                                    <a href="" class="robot">778-927-1348</a>
+                                    <a href="" class="robot">(778) 9271348</a>
                                 </div>
                             </div>
                             <div class="single_contact">
