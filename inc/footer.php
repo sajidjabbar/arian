@@ -69,6 +69,10 @@
                 </div>
             </div>
         </div>
+        <div class="col-md-10 mx-auto">
+            <hr class="break_line">
+            <p class="copywrite_line text-center">© ARIAN HOMECARE SERVICE 2022. All rights reserved.</p>
+        </div>
     </div>
 </footer>
 <?php include 'footerlinks.php'; ?>

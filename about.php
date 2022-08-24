@@ -54,7 +54,7 @@
             <div class="our_team_text text-center">
                 <h6 class="blue">Our Team</h6>
                 <h4 class="h4">Meet the owners of Arian Homecare</h4>
-                <p>Arian Homecare is a Personal Assistance Care Agency founded in 2017 by two females, mother and daughter, Kamelia and Kimia.</p>
+                <p class="mt-3 mb-4 pb-3">Arian Homecare is a Personal Assistance Care Agency founded in 2017 by two females, mother and daughter, Kamelia and Kimia.</p>
             </div>
             <div class="row">
                 <div class="col-md-6">

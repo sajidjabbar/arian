@@ -7,8 +7,8 @@ section.child_care_form {
     background: #FFF;
     box-shadow: 0px 0px 4px #e7cfcf;
     padding: 25px 33px;
+    margin-top: 4px;
 }
-
 .form_row label {
     display: block;
     color: #000000;
@@ -16,7 +16,6 @@ section.child_care_form {
     font-size: 12px;
     margin-bottom: 2px;
 }
-
 .form_row input {
     width: 100%;
     margin-top: 1px;
@@ -26,8 +25,8 @@ section.child_care_form {
     background: #F3F3F3;
     color: #B1BBC4;
     font-size: 13px;
+    font-family: "'Montserrat-Regular'";
 }
-
 .form_row {
     margin-top: 10px;
 }

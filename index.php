@@ -7,10 +7,16 @@
         <h2>Serving British Columbia & Ontario, Canada</h2>
         <h1>we rise by <br>
             lifting others</h1>
-        <h2 class="w-50">Call us for a free consultation to discuss how we can provide the service you need, with the
-            quality you deserve.</h2>
-        <div class="d-flex">
-            <img src="img/call.png"><span class="number">778-927-1348</span>
+        <p class=" banner_para">Call us for a free consultation to discuss how we can provide<br>the service you need, with the
+            quality you deserve.</p>
+        <div class="d-flex align-items-center">
+            <img src="img/call.png" width="50px" class="call_icon"><span class="number">778-927-1348</span>
+        </div>
+        <div class="play_video_now">
+            <p>
+                p l a y
+            </p>
+            <img src="img/play_now.png" class="d-block img-fluid" alt="">
         </div>
     </div>
 </section>
@@ -58,60 +64,62 @@
 <!-- BOX END Here -->
 <!-- ABOUT SECTION START HERE -->
 <section class="about_index">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <figure class="mr-2">
-                    <img src="img/index1.png" class="img-fluid" alt="">
-                </figure>
-            </div>
-            <div class="col-md-6">
-                <div class="about_arians">
-                    <div class="top_heading">
-                        <h6 class="blue">About Arian Home Care</h6>
-                        <h4>Arian Homecare Has Been Serving <br> In Canada</h4>
-                    </div>
-                    <div class="text_start">
-                        <p>
-                            We are a smalllocal family business providing non-medical care and assistance to
-                            seniors, children, and special needs individuals. Our team consists of infinite
-                            compassion, respect, love, and support. The quality of care that we provide for your
-                            loved ones is just the same with our own family by going beyond given
-                            responsibilities for a consistent smile and satisfaction of you and your family.
-                        </p>
-                        <p>
-                            At Arian Homecare, relationship and building a unique bond is key to increase comfort in our
-                            work together. Our clients will be receiving a dedicated care provider as their support
-                            worker
-                            which they can communicate with directly on their needs.
-                        </p>
-                        <p>
-                            We aspire to make things happen for our clients. We are not a large corporate with a strict
-                            system, therefore we can be flexible to work with different budget and service needs to
-                            accomplish what works best for our clients. Contact us at 778-927-1348 for a free
-                            consultation
-                            on how we fulfill the support you need.
-                        </p>
-                    </div>
-                    <div class="some_peoples">
-                        <div class="single_person">
-                            <figure>
-                                <img src="img/ab1.png" class="img-fluid" alt="">
-                            </figure>
-                            <div class="texts">
-                                <h6>Kamelia Aria</h6>
-                                <p>Client Care Manager, Owner</p>
-                                <a href="tel: (778) 9271348">(778) 9271348</a>
-                            </div>
+    <div class="container-fluid">
+        <div class="col-md-11 px-4 mx-auto">
+            <div class="row">
+                <div class="col-md-6">
+                    <figure class="mr-2 pr-2">
+                        <img src="img/index1.png" class="img-fluid" alt="">
+                    </figure>
+                </div>
+                <div class="col-md-6">
+                    <div class="about_arians">
+                        <div class="top_heading">
+                            <h6 class="blue">About Arian Home Care</h6>
+                            <h4>Arian Homecare Has Been Serving <br> In Canada</h4>
                         </div>
-                        <div class="single_person">
-                            <figure>
-                                <img src="img/ab2.png" class="img-fluid" alt="">
-                            </figure>
-                            <div class="texts">
-                                <h6>Kimia Jarrahian</h6>
-                                <p>Project & Operations Manager, Owner</p>
-                                <a href="tel: (778) 9271348">(778) 9271348</a>
+                        <div class="text_start">
+                            <p>
+                                We are a smalllocal family business providing non-medical care and assistance to
+                                seniors, children, and special needs individuals. Our team consists of infinite
+                                compassion, respect, love, and support. The quality of care that we provide for your
+                                loved ones is just the same with our own family by going beyond given
+                                responsibilities for a consistent smile and satisfaction of you and your family.
+                            </p>
+                            <p>
+                                At Arian Homecare, relationship and building a unique bond is key to increase comfort in our
+                                work together. Our clients will be receiving a dedicated care provider as their support
+                                worker
+                                which they can communicate with directly on their needs.
+                            </p>
+                            <p>
+                                We aspire to make things happen for our clients. We are not a large corporate with a strict
+                                system, therefore we can be flexible to work with different budget and service needs to
+                                accomplish what works best for our clients. Contact us at 778-927-1348 for a free
+                                consultation
+                                on how we fulfill the support you need.
+                            </p>
+                        </div>
+                        <div class="some_peoples mt-4">
+                            <div class="single_person">
+                                <figure>
+                                    <img src="img/ab1.png" class="img-fluid" alt="">
+                                </figure>
+                                <div class="texts">
+                                    <h6>Kamelia Aria</h6>
+                                    <p>Client Care Manager, Owner</p>
+                                    <a href="tel: (778) 9271348">(778) 9271348</a>
+                                </div>
+                            </div>
+                            <div class="single_person">
+                                <figure>
+                                    <img src="img/ab2.png" class="img-fluid" alt="">
+                                </figure>
+                                <div class="texts">
+                                    <h6>Kimia Jarrahian</h6>
+                                    <p>Project & Operations Manager, Owner</p>
+                                    <a href="tel: (778) 9271348">(778) 9271348</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -453,7 +461,7 @@
 </section>
 <!-- GALLERY SECTION END HERE -->
 <!-- TESTIMONIALS SECTION START HERE -->
-<section class="testimonials_section">
+<section class="testimonials_section pt-5">
     <div class="container">
         <div class="top_text">
             <div class="headings text-center">
@@ -490,7 +498,27 @@
                         <div class="testimonial_box">
                             <div class="top_heading">
                                 <img src="img/testimonial.png" alt="">
-                                <span>Pervis Fazal</span>
+                                <span>Mrs. Nasrin</span>
+                            </div>
+                            <div class="testimonials_body">
+                                <p>Arian Home Care has been a caregiver companion for my mum for the past year. They are
+                                    very compassionate and devoted, treats my mum as she would her mother...</p>
+                                <div class="stars">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="small_shadow"></div>
+                        </div>
+                    </div>
+                    <div class="test">
+                        <div class="testimonial_box">
+                            <div class="top_heading">
+                                <img src="img/testimonial.png" alt="">
+                                <span>Mrs. Hashimi Family</span>
                             </div>
                             <div class="testimonials_body">
                                 <p>Arian Home Care has been a caregiver companion for my mum for the past year. They are
@@ -586,27 +614,7 @@
                             <div class="small_shadow"></div>
                         </div>
                     </div>
-                    <div class="test">
-                        <div class="testimonial_box">
-                            <div class="top_heading">
-                                <img src="img/testimonial.png" alt="">
-                                <span>Pervis Fazal</span>
-                            </div>
-                            <div class="testimonials_body">
-                                <p>Arian Home Care has been a caregiver companion for my mum for the past year. They are
-                                    very compassionate and devoted, treats my mum as she would her mother...</p>
-                                <div class="stars">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="small_shadow"></div>
-                        </div>
-                    </div>
-                    
+
                 </div>
             </div>
         </div>
@@ -627,7 +635,7 @@
                         <div class="contact_us_on">
                             <div class="single_contact">
                                 <figure>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="32.129" height="32.177" viewBox="0 0 32.129 32.177">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="24.129" height="24.177" viewBox="0 0 32.129 32.177">
                                         <path id="Path_148" data-name="Path 148" d="M-265.345-366.637a16.183,16.183,0,0,1-4.214-.987,29.582,29.582,0,0,1-8.458-5.007,36.445,36.445,0,0,1-8.856-10.436,21.21,21.21,0,0,1-2.49-6.748,2.664,2.664,0,0,1,.328-1.983,26.386,26.386,0,0,1,5.308-6.3c.136-.115.287-.212.432-.316a1.8,1.8,0,0,1,2.465.2,1.538,1.538,0,0,1,.3.315,41.176,41.176,0,0,1,3.963,6.511,9.071,9.071,0,0,1,.4,1.1,1.582,1.582,0,0,1-.346,1.626c-.519.551-1.088,1.056-1.657,1.556-.752.66-.77.653-.374,1.577a14.664,14.664,0,0,0,8.414,8.16.608.608,0,0,0,.843-.2c.451-.581.952-1.125,1.447-1.671a1.984,1.984,0,0,1,2.481-.56,35.64,35.64,0,0,1,3.216,1.632c1.312.782,2.565,1.663,3.833,2.516a2.377,2.377,0,0,1,.972,1.438,1.217,1.217,0,0,1-.115.969,7.119,7.119,0,0,1-.709,1.052,25.386,25.386,0,0,1-6.424,5.259A4.414,4.414,0,0,1-265.345-366.637Z" transform="translate(289.422 398.814)" fill="#3cbffc" />
                                     </svg>
                                 </figure>
@@ -638,7 +646,7 @@
                             </div>
                             <div class="single_contact">
                                 <figure>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="30.129" height="21.231" viewBox="0 0 30.129 21.231">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="25.129" height="17.231" viewBox="0 0 30.129 21.231">
                                         <g id="Group_102" data-name="Group 102" transform="translate(732.233 327.033)">
                                             <path id="Path_5042" data-name="Path 5042" d="M-458.509-289.379l-.245.75-9.1-9.038,9.116-9.043.229.7Z" transform="translate(-243.595 -18.725)" fill="#3cbffc" />
                                             <path id="Path_5043" data-name="Path 5043" d="M-712.838-326.817c.356-.077.657-.147.959-.205a1.567,1.567,0,0,1,.294-.008q12.282,0,24.563.007a9.018,9.018,0,0,1,1.2.159l.013.107c-.071.074-.141.15-.213.223l-12.42,12.482a1.056,1.056,0,0,1-1.706.009l-12.44-12.5C-712.654-326.615-712.717-326.688-712.838-326.817Z" transform="translate(-17.87)" fill="#3cbffc" />
@@ -654,7 +662,7 @@
                             </div>
                             <div class="single_contact">
                                 <figure>
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="22.566" height="30.729" viewBox="0 0 22.566 30.729">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18.566" height="24.729" viewBox="0 0 22.566 30.729">
                                         <g id="Group_103" data-name="Group 103" transform="translate(-233.838 390.521)">
                                             <path id="Path_5046" data-name="Path 5046" d="M245.143-390.521a11.328,11.328,0,0,1,11.136,9.479,9.835,9.835,0,0,1-.6,5.2,41.512,41.512,0,0,1-3.938,7.512,97.944,97.944,0,0,1-5.728,8.046,1.028,1.028,0,0,1-1.734.03,85.238,85.238,0,0,1-7.955-11.813,23.159,23.159,0,0,1-2.216-5.322,9.441,9.441,0,0,1,.667-6.3,11.089,11.089,0,0,1,8.581-6.68,6.275,6.275,0,0,1,.635-.077C244.376-390.474,244.759-390.5,245.143-390.521Zm-4.112,10.238a4.1,4.1,0,0,0,4.083,4.1,4.106,4.106,0,0,0,4.121-4.066,4.1,4.1,0,0,0-4.068-4.12A4.1,4.1,0,0,0,241.031-380.283Z" fill="#3cbffc" />
                                         </g>

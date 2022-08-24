@@ -19,7 +19,7 @@
     <div class="container">
         <div class="top_heading text-center">
             <h6 class="blue">Child Care Form</h6>
-            <h4 class="h4">Child Care</h4>
+            <h4 class="h4 mb-4">Child Care</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sollicitudin erat vel r <br>
                 honcus sollicitudin. Ma dolor sit amet, consectetur adt, consectetur
             </p>

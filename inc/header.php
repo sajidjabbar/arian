@@ -14,7 +14,7 @@
 
 <!-- ======= Header ======= -->
 <header id="header" class="d-flex align-items-center">
-    <div class="container d-flex align-items-left justify-content-left">
+    <div class="w-100 main_header d-flex align-items-left justify-content-between">
 
         <h1 class="logo"><a href="index.html"><img class="img-fluid" src="img/logo.png"></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
@@ -25,7 +25,7 @@
                 <li><a class="nav-link scrollto active" href="index.php">HOME</a></li>
                 <li><a class="nav-link scrollto" href="about.php">ABOUT</a></li>
                 <li><a class="nav-link scrollto" href="testimonials.php">TESTIMONIALS</a></li>
-                <li><a class="nav-link scrollto " href="">PRIVACY POLICY</a></li>
+                <li><a class="nav-link scrollto " href="company_policy.php">PRIVACY POLICY</a></li>
             </ul>
         </nav><!-- .navbar -->
         <div class="d-flex align-items-center justify-content-center search-section">

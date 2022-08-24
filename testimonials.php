@@ -90,3 +90,6 @@
     </div>
 </section>
 <!-- TESTIMONIAL END HERE -->
+<!-- Footer Start Here -->
+<?php include 'inc/footer.php';  ?>
+<!-- Footer End Here -->

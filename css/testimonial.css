@@ -20,6 +20,7 @@ section.about_text {
 
 section.testimonials_section {
     padding-top: 84px;
+    padding-bottom: 73px;
 }
 
 h6.blue {
@@ -40,6 +41,14 @@ h6.blue {
     max-width: 26px;
 }
 
+.top_heading.text-center h4 {
+    font-size: 28px !important;
+}
+
+.top_heading.text-center h6.blue {
+    font-family: "Playfair-Italic";
+    font-size: 21px;
+}
 @media(max-width: 991px) {
     .banner_text p {
         font-size: 11px;

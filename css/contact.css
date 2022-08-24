@@ -1,6 +1,6 @@
 section.contact_us .contact_card {
     background-color: #3CBFFC;
-    padding: 33px 0px 66px 22px;
+    padding: 33px 0px 58px 22px;
     border-radius: 10px;
 }
 .contact_on {
@@ -58,8 +58,7 @@ section.contact_us .contact_card .follow_us {
     font-size: 12px;
     margin-bottom: 2px;
 }
-
-.form_row input,.form_row textarea {
+.form_row input, .form_row textarea {
     width: 100%;
     margin-top: 1px;
     border: 1px solid #C3CAD9;
@@ -68,10 +67,11 @@ section.contact_us .contact_card .follow_us {
     background: #F3F3F3;
     color: #B1BBC4;
     font-size: 13px;
+    font-family: 'Montserrat-Regular';
 }
 
 .form_row {
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -81,6 +81,31 @@ section.contact_us .contact_card .follow_us {
 .form_row textarea {
     resize: none;
     height: 150px;
+}
+.for_the_form::before {
+    content: "";
+    position: absolute;
+    display: block;
+    right: -3%;
+    width: 128%;
+    background-color: #FFFFFF;
+    height: 125%;
+    border-radius: 5px;
+    z-index: -1;
+    top: -15%;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 2px -3px;
+}
+.for_the_form.ml-5 {
+    padding-top: 7px;
+}
+
+section.contact_us {
+    padding: 152px 0px 123px;
+}
+@media (max-width: 1200px){
+    .for_the_form::before{
+        content: unset;
+    }
 }
 @media (max-width: 991px){
     .for_the_form{
