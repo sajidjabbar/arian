@@ -22,7 +22,7 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto home_link active" href="index.php">HOME</a></li>
+                <li><a class="nav-link scrollto home_link  " href="index.php">HOME</a></li>
                 <li><a class="nav-link scrollto" href="about.php">ABOUT</a></li>
                 <li><a class="nav-link scrollto" href="testimonials.php">TESTIMONIALS</a></li>
                 <li><a class="nav-link scrollto " href="company_policy.php">PRIVACY POLICY</a></li>

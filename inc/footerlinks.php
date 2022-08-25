@@ -63,9 +63,9 @@
         if (menuItem[i].href === CurrentLocation) {
             menuItem[i].className += " active";
         }
-        elseif(CurrentLocation === ""){
-            const menuit = document.querySelectorAll('.home_link');
-            menuit.className += " active";
-        }
+
     }
+    if (CurrentLocation === "https://demos-clients-websites.com/arian/") {
+            menuItem[0].className += " active";
+        }
 </script>
