@@ -83,9 +83,9 @@
                 </p>
                 <h6 class="blue">Mrs. Nasrin Samimi</h6>
             </div>
-            <div class="apply_now_btn text-center mt-5">
+            <!-- <div class="apply_now_btn text-center mt-5">
                 <a href="" class="btn mt-5">APPLY ONLINE</a>
-            </div>
+            </div> -->
         </div>
     </div>
 </section>
