@@ -472,8 +472,16 @@ img {
   display: flex;
   list-style: none;
   align-items: center;
+  position: relative;
+  top: -8px;
+  left: 14px;
 }
-
+.navbar ul a.nav-link {
+  font-size: 15px !important;
+  color: #000000 !important;
+  font-weight: 400;
+  font-family: "Poppins-Regular";
+}
 .navbar li {
   position: relative;
 }
@@ -564,7 +572,13 @@ img {
 .navbar .dropdown ul li:hover>a {
   color: #3CBFFC;
 }
+.navbar ul li a.nav-link.active {
+  font-family: "Poppins-SemiBold";
+}
 
+.navbar ul li a.nav-link.active::before {
+  content: unset;
+}
 .navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
