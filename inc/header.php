@@ -1,6 +1,6 @@
 <!-- ======= Top Bar ======= -->
 <section id="topbar" class="">
-    <div class="container d-flex justify-content-center justify-content-md-between">
+    <div class=" the_top d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
             <i class="bi bi-envelope d-flex align-items-center"><span>Email Us: <br>someone@gmail.com</span></i>
             <i class="bi bi-clock d-flex align-items-center ms-4 ml-4"><span>Opening Time: <br>SUn - Fri: 8.30 - 9:30</span></i>

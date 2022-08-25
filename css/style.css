@@ -325,14 +325,16 @@ span {
 --------------------------------------------------------------*/
 #topbar {
   background: #000323;
-  height: 40px;
+  height: 43px;
   font-size: 14px;
   transition: all 0.5s;
   color: #fff;
   padding: 0;
   padding-top: 7px;
 }
-
+section#topbar .the_top {
+  padding: 0px 119px;
+}
 #topbar .contact-info i {
   font-style: normal;
   color: #3CBFFC;
@@ -367,6 +369,7 @@ span {
   font-weight: 400;
   opacity: 0.5;
 }
+
 .call-text span {
   font-weight: bold;
   color: #3CBFFC;
@@ -375,11 +378,12 @@ span {
   font-family: "Roboto-Bold";
 }
 
-#topbar .contact-info i a,
-#topbar .contact-info i span {
-  padding-left: 5px;
-  color: #fff;
-  font-size: 9px;
+#topbar .contact-info i a, #topbar .contact-info i span {
+  color: #D6D9F5;
+  font-size: 11px;
+  font-family: 'Poppins-Regular';
+  line-height: 14px;
+  padding-left: 10px;
 }
 
 #topbar .contact-info i a {
@@ -414,6 +418,7 @@ span {
   height: 70px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+
 header#header .main_header {
   padding: 0px 106px;
 }
@@ -476,12 +481,14 @@ img {
   top: -8px;
   left: 14px;
 }
+
 .navbar ul a.nav-link {
   font-size: 15px !important;
   color: #000000 !important;
   font-weight: 400;
   font-family: "Poppins-Regular";
 }
+
 .navbar li {
   position: relative;
 }
@@ -572,6 +579,7 @@ img {
 .navbar .dropdown ul li:hover>a {
   color: #3CBFFC;
 }
+
 .navbar ul li a.nav-link.active {
   font-family: "Poppins-SemiBold";
 }
@@ -579,6 +587,7 @@ img {
 .navbar ul li a.nav-link.active::before {
   content: unset;
 }
+
 .navbar .dropdown:hover>ul {
   opacity: 1;
   top: 100%;
@@ -738,7 +747,7 @@ i.bi.bi-list.mobile-nav-toggle {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh ;
+  height: 75vh;
   height: 613px;
   background: url("../img/header-bg.png") top left;
   background-size: cover;
@@ -768,22 +777,26 @@ i.bi.bi-list.mobile-nav-toggle {
   color: #fff;
   font-family: 'Playfair-Bold';
 }
+
 p.banner_para {
   font-size: 20px;
   color: #FFF;
   margin-top: 21px;
 }
+
 .number {
   margin-left: 2%;
-  font-size: 25px;
+  font-size: 40px;
   color: #fff;
   margin-top: 15px;
   font-family: "Playfair-Bold";
 }
+
 img.call_icon {
   max-width: 46px;
   max-height: 46px;
 }
+
 .play_video_now {
   position: absolute;
   right: 10%;
@@ -794,9 +807,11 @@ img.call_icon {
   justify-content: center;
   flex-direction: column;
 }
+
 section#hero {
   padding-top: 58px;
 }
+
 .play_video_now p {
   word-break: break-word;
   width: 15px;
@@ -2262,6 +2277,7 @@ section.services_index .single_service_list .top_service {
   section.services_index .single_service_list .top_service {
     display: unset;
   }
+
   .request_now {
     text-align: right;
     margin-top: 21px;
@@ -2315,6 +2331,7 @@ section.services_index .single_service_list .top_service {
   margin-top: 6px;
   font-family: 'Roboto-Regular';
 }
+
 .services .single_service {
   position: relative;
   transition: 0.6s all;
@@ -2491,6 +2508,7 @@ section.contact_section_start_here {
   height: 100%;
   box-shadow: 0px 0px 4px #e7cfcf;
 }
+
 .contact_form form .form_row {
   width: 100%;
   display: flex;
@@ -2628,15 +2646,18 @@ footer.footer .footer_contacts ul li a span {
 footer.footer .footer_contacts ul li {
   margin: 18px 0;
 }
+
 hr.break_line {
   background: #DCDCDC;
   border: 0px !important;
   height: 1px;
 }
+
 p.copywrite_line.text-center {
   font-size: 13px;
   font-family: "Poppins-Medium";
 }
+
 @media (max-width: 991px) {
 
   .footer_links,
@@ -2662,6 +2683,7 @@ p.copywrite_line.text-center {
     position: unset;
   }
 }
+
 .testimonial_box::before {
   /* content: ""; */
   background: yellow;
