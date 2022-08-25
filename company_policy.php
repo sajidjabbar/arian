@@ -4,11 +4,11 @@
 <section class="custom_banner">
     <div class="container">
         <div class="custom_banner_text">
-            <h2>About Us</h2>
+            <h2>Privacy Policy</h2>
             <p>
                 <a href="index.php">Home</a>
                 <img src="img/inner.png" alt="">
-                <a href="about.php">About Us</a>
+                <a href="#">Privacy Policy</a>
             </p>
         </div>
     </div>
@@ -45,7 +45,7 @@
 </section>
 <!-- About Text END Here -->
 <!-- contact Section Start Here -->
-<section class="contact_section_start_here company">
+<!-- <section class="contact_section_start_here company">
     <div class="container-fluid">
         <div class="custom_width mx-auto">
             <div class="row">
@@ -134,6 +134,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- contact Section End Here -->
 <?php include 'inc/footer.php'; ?>

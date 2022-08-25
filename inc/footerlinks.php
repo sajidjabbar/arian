@@ -18,40 +18,54 @@
 <script src="js/main.js"></script>
 <!-- Jquery JS -->
 <script>
-$(document).ready(function() {
-    $(window).on('load', function() {
-        $("#preloader").fadeOut(1000);
+    $(document).ready(function() {
+        $(window).on('load', function() {
+            $("#preloader").fadeOut(1000);
+        });
+    })
+    $('.sslider_testimonials').slick({
+        dots: false,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
     });
-})
-$('.sslider_testimonials').slick({
-    dots: false,
-    infinite: false,
-    speed: 300,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    responsive: [{
-            breakpoint: 1024,
-            settings: {
-                slidesToShow: 2,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false
-            }
-        },
-        {
-            breakpoint: 600,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
-        },
-        {
-            breakpoint: 480,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1
-            }
+
+
+    const CurrentLocation = location.href;
+    const menuItem = document.querySelectorAll('.nav-link');
+    const menuLength = menuItem.length;
+    for (let i = 0; i < menuLength; i++) {
+        if (menuItem[i].href === CurrentLocation) {
+            menuItem[i].className += " active";
         }
-    ]
-});
+        elseif(CurrentLocation === ""){
+            const menuit = document.querySelectorAll('.home_link');
+            menuit.className += " active";
+        }
+    }
 </script>

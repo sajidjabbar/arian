@@ -788,10 +788,11 @@ p.banner_para {
   margin-left: 2%;
   font-size: 40px;
   color: #fff;
-  margin-top: 15px;
+  /* margin-top: 15px; */
   font-family: "Playfair-Bold";
+  position: relative;
+  top: -8px;
 }
-
 img.call_icon {
   max-width: 46px;
   max-height: 46px;
@@ -2294,7 +2295,7 @@ section.services_index .single_service_list .top_service {
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .services .single_service figure {

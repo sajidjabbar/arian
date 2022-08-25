@@ -3,7 +3,7 @@
     <div class=" the_top d-flex justify-content-center justify-content-md-between">
         <div class="contact-info d-flex align-items-center">
             <i class="bi bi-envelope d-flex align-items-center"><span>Email Us: <br>someone@gmail.com</span></i>
-            <i class="bi bi-clock d-flex align-items-center ms-4 ml-4"><span>Opening Time: <br>SUn - Fri: 8.30 - 9:30</span></i>
+            <i class="bi bi-clock d-flex align-items-center ms-4 ml-4"><span>Opening Time: <br>Sun - Fri: 8.30 - 9:30</span></i>
         </div>
         <div class=" contact-info d-md-flex align-items-center">
             <i class="bi bi-geo-alt d-flex align-items-center"><span>Contact Us: <br>Square, Square Street,UK</span></i>
@@ -22,7 +22,7 @@
 
         <nav id="navbar" class="navbar">
             <ul>
-                <li><a class="nav-link scrollto active" href="index.php">HOME</a></li>
+                <li><a class="nav-link scrollto home_link active" href="index.php">HOME</a></li>
                 <li><a class="nav-link scrollto" href="about.php">ABOUT</a></li>
                 <li><a class="nav-link scrollto" href="testimonials.php">TESTIMONIALS</a></li>
                 <li><a class="nav-link scrollto " href="company_policy.php">PRIVACY POLICY</a></li>
