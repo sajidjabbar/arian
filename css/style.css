@@ -755,7 +755,7 @@ i.bi.bi-list.mobile-nav-toggle {
   font-family: 'Playfair-Bold';
 }
 p.banner_para {
-  font-size: 22px;
+  font-size: 20px;
   color: #FFF;
   margin-top: 21px;
 }
@@ -2585,7 +2585,7 @@ footer.footer .for_heading {
 }
 
 footer.footer .footer_links ul li {
-  margin: 18px 0px;
+  margin: 14px 0px;
 }
 
 footer.footer .footer_links ul li a {

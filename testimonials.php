@@ -18,7 +18,7 @@
 <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img class="d-block w-100" src="img/testimonial_back.png" alt="First slide">
+            <img class="d-block w-100" src="img/arian_test.png" alt="First slide">
             <div class="banner_text">
                 <figure>
                     <img src="img/marks.png" class="img-fluid" alt="">
